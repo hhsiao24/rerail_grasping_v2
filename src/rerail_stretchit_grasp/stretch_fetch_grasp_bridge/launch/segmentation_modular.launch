@@ -1,0 +1,11 @@
+<launch>
+    <arg name="cloud_topic" default="/camera/depth/color/points" />
+
+    <rosparam command="load" file="$(find rail_grasping)/config/rail_segmentation_params.yaml" ns="rail_segmentation"/>
+
+    <node pkg="rail_segmentation" type="rail_segmentation" name="rail_segmentation" output="screen"/>
+
+    <!-- <node pkg="stretch_fetch_grasp_bridge" type="segmentation_dummy_node.py" name="modular_segmentation" output="screen"/> -->
+    <node pkg="stretch_fetch_grasp_bridge" type="segmentation_node.py" name="modular_segmentation" output="screen"/>
+
+</launch>
