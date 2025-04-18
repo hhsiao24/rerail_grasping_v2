@@ -38,6 +38,6 @@ Call Stack (most recent call first):
 [classifier_node-4] process has died [pid 21629, exit code 1, cmd /home/hannah/hannah_ws/src/rerail_stretchit_grasp/fetch_grasp_suggestion/scripts/classifier_node.py __name:=classifier_node __log:=/home/hannah/.ros/log/14f25708-0c0a-11f0-a41b-51e51c91b193/classifier_node-4.log].
 log file: /home/hannah/.ros/log/14f25708-0c0a-11f0-a41b-51e51c91b193/classifier_node-4*.log
 
-$$ April 18
+## April 18
 * created rail_grasping folder and added params and zones yaml files to be used in segmentation_modular.launch
 * newest issue to fix: now running `rosrun segmentation obj_server.py` on the desktop instead of laptop, need to resolve detic issues
