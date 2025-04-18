@@ -1,0 +1,2 @@
+set(stretch_fetch_grasp_bridge_MESSAGE_FILES "")
+set(stretch_fetch_grasp_bridge_SERVICE_FILES "/home/hannah/hannah_ws/src/rerail_stretchit_grasp/stretch_fetch_grasp_bridge/srv/StretchGraspPose.srv;/home/hannah/hannah_ws/src/rerail_stretchit_grasp/stretch_fetch_grasp_bridge/srv/StretchGraspPosev2.srv;/home/hannah/hannah_ws/src/rerail_stretchit_grasp/stretch_fetch_grasp_bridge/srv/StretchSegmentation.srv")

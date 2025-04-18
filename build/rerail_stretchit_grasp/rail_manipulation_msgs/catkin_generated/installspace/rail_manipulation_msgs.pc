@@ -1,0 +1,8 @@
+prefix=/home/hannah/hannah_ws/install
+
+Name: rail_manipulation_msgs
+Description: Description of rail_manipulation_msgs
+Version: 0.0.14
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs geometry_msgs sensor_msgs visualization_msgs

@@ -1,0 +1,8 @@
+prefix=/home/hannah/hannah_ws/install
+
+Name: rail_segmentation
+Description: Description of rail_segmentation
+Version: 0.1.15
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,43 @@
+
+(cl:in-package :asdf)
+
+(defsystem "rail_grasp_calculation_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :geometry_msgs-msg
+               :sensor_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "Heuristics" :depends-on ("_package_Heuristics"))
+    (:file "_package_Heuristics" :depends-on ("_package"))
+    (:file "RankGraspsAction" :depends-on ("_package_RankGraspsAction"))
+    (:file "_package_RankGraspsAction" :depends-on ("_package"))
+    (:file "RankGraspsActionFeedback" :depends-on ("_package_RankGraspsActionFeedback"))
+    (:file "_package_RankGraspsActionFeedback" :depends-on ("_package"))
+    (:file "RankGraspsActionGoal" :depends-on ("_package_RankGraspsActionGoal"))
+    (:file "_package_RankGraspsActionGoal" :depends-on ("_package"))
+    (:file "RankGraspsActionResult" :depends-on ("_package_RankGraspsActionResult"))
+    (:file "_package_RankGraspsActionResult" :depends-on ("_package"))
+    (:file "RankGraspsFeedback" :depends-on ("_package_RankGraspsFeedback"))
+    (:file "_package_RankGraspsFeedback" :depends-on ("_package"))
+    (:file "RankGraspsGoal" :depends-on ("_package_RankGraspsGoal"))
+    (:file "_package_RankGraspsGoal" :depends-on ("_package"))
+    (:file "RankGraspsResult" :depends-on ("_package_RankGraspsResult"))
+    (:file "_package_RankGraspsResult" :depends-on ("_package"))
+    (:file "SampleGraspsAction" :depends-on ("_package_SampleGraspsAction"))
+    (:file "_package_SampleGraspsAction" :depends-on ("_package"))
+    (:file "SampleGraspsActionFeedback" :depends-on ("_package_SampleGraspsActionFeedback"))
+    (:file "_package_SampleGraspsActionFeedback" :depends-on ("_package"))
+    (:file "SampleGraspsActionGoal" :depends-on ("_package_SampleGraspsActionGoal"))
+    (:file "_package_SampleGraspsActionGoal" :depends-on ("_package"))
+    (:file "SampleGraspsActionResult" :depends-on ("_package_SampleGraspsActionResult"))
+    (:file "_package_SampleGraspsActionResult" :depends-on ("_package"))
+    (:file "SampleGraspsFeedback" :depends-on ("_package_SampleGraspsFeedback"))
+    (:file "_package_SampleGraspsFeedback" :depends-on ("_package"))
+    (:file "SampleGraspsGoal" :depends-on ("_package_SampleGraspsGoal"))
+    (:file "_package_SampleGraspsGoal" :depends-on ("_package"))
+    (:file "SampleGraspsResult" :depends-on ("_package_SampleGraspsResult"))
+    (:file "_package_SampleGraspsResult" :depends-on ("_package"))
+    (:file "Workspace" :depends-on ("_package_Workspace"))
+    (:file "_package_Workspace" :depends-on ("_package"))
+  ))

@@ -1,0 +1,8 @@
+prefix=/home/hannah/hannah_ws/devel
+
+Name: rail_grasp_calculation_msgs
+Description: Description of rail_grasp_calculation_msgs
+Version: 0.0.0
+Cflags: -I/home/hannah/hannah_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs actionlib_msgs rail_manipulation_msgs

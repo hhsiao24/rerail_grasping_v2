@@ -1,0 +1,8 @@
+prefix=/home/hannah/hannah_ws/install
+
+Name: stretch_fetch_grasp_bridge
+Description: Description of stretch_fetch_grasp_bridge
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

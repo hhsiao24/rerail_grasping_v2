@@ -1,0 +1,8 @@
+prefix=/home/hannah/hannah_ws/devel
+
+Name: rail_grasping
+Description: Description of rail_grasping
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

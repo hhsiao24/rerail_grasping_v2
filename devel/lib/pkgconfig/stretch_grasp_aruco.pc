@@ -1,0 +1,8 @@
+prefix=/home/hannah/hannah_ws/devel
+
+Name: stretch_grasp_aruco
+Description: Description of stretch_grasp_aruco
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

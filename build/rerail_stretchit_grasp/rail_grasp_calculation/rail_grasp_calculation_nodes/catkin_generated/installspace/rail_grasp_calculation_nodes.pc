@@ -1,0 +1,8 @@
+prefix=/home/hannah/hannah_ws/install
+
+Name: rail_grasp_calculation_nodes
+Description: Description of rail_grasp_calculation_nodes
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

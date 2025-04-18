@@ -1,0 +1,6 @@
+ebug: true
+point_cloud_topic: "/camera/depth/color/points"
+min_cluster_size: 200
+max_cluster_size: 10000
+use_color: true
+zones_config: '/home/hannah/hannah_ws/src/rail_grasping/config/rail_segmentation_zones.yaml'

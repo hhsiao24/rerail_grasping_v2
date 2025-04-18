@@ -1,0 +1,2 @@
+set(rail_grasp_calculation_msgs_MESSAGE_FILES "msg/Heuristics.msg;msg/Workspace.msg;msg/SampleGraspsAction.msg;msg/SampleGraspsActionGoal.msg;msg/SampleGraspsActionResult.msg;msg/SampleGraspsActionFeedback.msg;msg/SampleGraspsGoal.msg;msg/SampleGraspsResult.msg;msg/SampleGraspsFeedback.msg;msg/RankGraspsAction.msg;msg/RankGraspsActionGoal.msg;msg/RankGraspsActionResult.msg;msg/RankGraspsActionFeedback.msg;msg/RankGraspsGoal.msg;msg/RankGraspsResult.msg;msg/RankGraspsFeedback.msg")
+set(rail_grasp_calculation_msgs_SERVICE_FILES "")
